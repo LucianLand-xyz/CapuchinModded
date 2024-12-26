@@ -1,0 +1,104 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\lucia\\source\\repos\\CapuchinModded\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{76E23499-0C4A-4D40-8F33-996B7B44B842}|CapuchinModded\\CapuchinModded.csproj|c:\\users\\lucia\\source\\repos\\capuchinmodded\\capuchinmodded\\mod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76E23499-0C4A-4D40-8F33-996B7B44B842}|CapuchinModded\\CapuchinModded.csproj|solutionrelative:capuchinmodded\\mod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\lucia\\source\\CapuchinModded\\CapuchinModded\\CapuchinModded\\Mod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76E23499-0C4A-4D40-8F33-996B7B44B842}|CapuchinModded\\CapuchinModded.csproj|c:\\users\\lucia\\source\\repos\\capuchinmodded\\capuchinmodded\\render.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76E23499-0C4A-4D40-8F33-996B7B44B842}|CapuchinModded\\CapuchinModded.csproj|solutionrelative:capuchinmodded\\render.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76E23499-0C4A-4D40-8F33-996B7B44B842}|CapuchinModded\\CapuchinModded.csproj|C:\\Users\\lucia\\source\\repos\\CapuchinModded\\capuchinmodded\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76E23499-0C4A-4D40-8F33-996B7B44B842}|CapuchinModded\\CapuchinModded.csproj|solutionrelative:capuchinmodded\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\lucia\\source\\repos\\CapuchinModded\\CapuchinModded\\GuiLib.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CapuchinModded\\GuiLib.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Mod.cs",
+              "DocumentMoniker": "C:\\Users\\lucia\\source\\CapuchinModded\\CapuchinModded\\CapuchinModded\\Mod.cs",
+              "RelativeDocumentMoniker": "..\\..\\CapuchinModded\\CapuchinModded\\CapuchinModded\\Mod.cs",
+              "ToolTip": "C:\\Users\\lucia\\source\\CapuchinModded\\CapuchinModded\\CapuchinModded\\Mod.cs",
+              "RelativeToolTip": "..\\..\\CapuchinModded\\CapuchinModded\\CapuchinModded\\Mod.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAABYAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T04:12:38.584Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Render.cs",
+              "DocumentMoniker": "C:\\Users\\lucia\\source\\repos\\CapuchinModded\\CapuchinModded\\Render.cs",
+              "RelativeDocumentMoniker": "CapuchinModded\\Render.cs",
+              "ToolTip": "C:\\Users\\lucia\\source\\repos\\CapuchinModded\\CapuchinModded\\Render.cs",
+              "RelativeToolTip": "CapuchinModded\\Render.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF8AAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T04:08:03.5Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GuiLib.cs",
+              "DocumentMoniker": "C:\\Users\\lucia\\source\\repos\\CapuchinModded\\CapuchinModded\\GuiLib.cs",
+              "RelativeDocumentMoniker": "CapuchinModded\\GuiLib.cs",
+              "ToolTip": "C:\\Users\\lucia\\source\\repos\\CapuchinModded\\CapuchinModded\\GuiLib.cs",
+              "RelativeToolTip": "CapuchinModded\\GuiLib.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAMAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T03:17:39.759Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\lucia\\source\\repos\\CapuchinModded\\CapuchinModded\\Properties\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "CapuchinModded\\Properties\\AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\lucia\\source\\repos\\CapuchinModded\\CapuchinModded\\Properties\\AssemblyInfo.cs",
+              "RelativeToolTip": "CapuchinModded\\Properties\\AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T01:50:03.848Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Mod.cs",
+              "DocumentMoniker": "C:\\Users\\lucia\\source\\repos\\CapuchinModded\\CapuchinModded\\Mod.cs",
+              "RelativeDocumentMoniker": "CapuchinModded\\Mod.cs",
+              "ToolTip": "C:\\Users\\lucia\\source\\repos\\CapuchinModded\\CapuchinModded\\Mod.cs",
+              "RelativeToolTip": "CapuchinModded\\Mod.cs",
+              "ViewState": "AgIAAL0AAAAAAAAAAAAQwN8AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T01:48:17.282Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
