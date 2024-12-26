@@ -9,6 +9,8 @@ using UnityEngine.Rendering.Universal.LibTessDotNet;
 
 namespace LucianLand.MainMenu
 {
+
+    // old
     public enum ToggleTypeSelf
     {
         NoFog,
