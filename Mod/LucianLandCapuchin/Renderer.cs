@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using ClickableTransparentOverlay;
 using ImGuiNET;
+using Microsoft.VisualBasic;
 #endregion
 
 namespace LucianLandCapuchin
@@ -30,11 +31,58 @@ namespace LucianLandCapuchin
 
         // draw esp list
         ImDrawListPtr drawList;
+        private bool _isMyUIOpen;
 
         #endregion
 
         protected override void Render()
         {
+            var dummy = true;
+            ImGui.ShowDemoWindow(ref dummy);
+
+            if (ImGui.BeginMainMenuBar())
+            {
+                if (ImGui.BeginMenu("MainBar", true))
+                {
+                    if (ImGui.MenuItem("MyTestPlugin", null, false, true))
+                    {
+                        _isMyUIOpen ^= true;
+                    }
+
+                    ImGui.EndMenu();
+                }
+
+                ImGui.EndMainMenuBar();
+            }
+
+            if (ImGui.BeginMainMenuBar())
+            {
+                if (ImGui.BeginMenu("MainBar", true))
+                {
+                    if (ImGui.MenuItem("MyTestPlugin2", null, false, true))
+                    {
+                        _isMyUIOpen ^= true;
+                    }
+
+                    ImGui.EndMenu();
+                }
+
+                ImGui.EndMainMenuBar();
+            }
+            if (_isMyUIOpen)
+            {
+                var dummy2 = true;
+                if (ImGui.Begin("LucianLand - Capuchin .gg/wtxtag", ref dummy2, (int)ImGuiWindowFlags.None))
+                {
+                    ImGui.Text("hello there");
+
+
+                }
+
+                ImGui.End();
+            }
+
+            /*
 
             ImGui.Begin("LucianLand - Capuchin");
             ImGui.Checkbox("Player ESP", ref esp);
@@ -56,6 +104,7 @@ namespace LucianLandCapuchin
                     }
                 }
             }
+            */
         }
 
         #region draw methords

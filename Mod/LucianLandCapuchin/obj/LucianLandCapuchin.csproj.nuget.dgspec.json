@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lucia\\source\\repos\\LucianLandCapuchin\\LucianLandCapuchin\\LucianLandCapuchin.csproj": {}
+    "C:\\Users\\lucia\\OneDrive\\Desktop\\CapuchinModded\\Mod\\LucianLandCapuchin\\LucianLandCapuchin.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lucia\\source\\repos\\LucianLandCapuchin\\LucianLandCapuchin\\LucianLandCapuchin.csproj": {
+    "C:\\Users\\lucia\\OneDrive\\Desktop\\CapuchinModded\\Mod\\LucianLandCapuchin\\LucianLandCapuchin.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lucia\\source\\repos\\LucianLandCapuchin\\LucianLandCapuchin\\LucianLandCapuchin.csproj",
+        "projectUniqueName": "C:\\Users\\lucia\\OneDrive\\Desktop\\CapuchinModded\\Mod\\LucianLandCapuchin\\LucianLandCapuchin.csproj",
         "projectName": "LucianLandCapuchin",
-        "projectPath": "C:\\Users\\lucia\\source\\repos\\LucianLandCapuchin\\LucianLandCapuchin\\LucianLandCapuchin.csproj",
+        "projectPath": "C:\\Users\\lucia\\OneDrive\\Desktop\\CapuchinModded\\Mod\\LucianLandCapuchin\\LucianLandCapuchin.csproj",
         "packagesPath": "C:\\Users\\lucia\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lucia\\source\\repos\\LucianLandCapuchin\\LucianLandCapuchin\\obj\\",
+        "outputPath": "C:\\Users\\lucia\\OneDrive\\Desktop\\CapuchinModded\\Mod\\LucianLandCapuchin\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\lucia\\AppData\\Roaming\\NuGet\\NuGet.Config",

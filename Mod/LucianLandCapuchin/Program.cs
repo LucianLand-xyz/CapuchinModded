@@ -6,19 +6,27 @@ using System.Numerics;
 // main logic
 
 # region hooking and injecting
-Swed swed = new Swed("Capuchin");
-Console.WriteLine("Hooking to capuchin!");
-IntPtr client = swed.GetModuleBase("UnityPlayer.dll"); // if not work then use "GameAssembly.dll" or "baselib.dll"
+try
+{
+    Swed swed = new Swed("Capuchin");
+    Console.WriteLine("Hooking to capuchin!");
 
-Renderer renderer = new Renderer();
-Thread renderThread = new Thread(new ThreadStart(renderer.Start().Wait));
-renderThread.Start();
+    IntPtr client = swed.GetModuleBase("UnityPlayer.dll"); // if not work then use "GameAssembly.dll" or "baselib.dll"
 
-Vector2 ScreenSize = renderer.screenSize;
+    Renderer renderer = new Renderer();
+    Thread renderThread = new Thread(new ThreadStart(renderer.Start().Wait));
+    renderThread.Start();
 
-Console.WriteLine("Hooked! Have fun cheating!");
+    Vector2 ScreenSize = renderer.screenSize;
 
-List<Entity> entities = new List<Entity>();
-Entity localplayer = new Entity();
+    Console.WriteLine("Hooked! Have fun!");
+    Console.Beep(); 
 
+    List<Entity> entities = new List<Entity>();
+    Entity localplayer = new Entity();
+}
+catch (Exception ex)
+{
+    Console.Error.WriteLine($"Error while initializing Swed: {ex.Message}");
+}
 #endregion
