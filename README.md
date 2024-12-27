@@ -2,7 +2,7 @@
 
 ### <p align="center"> Installation Guide </p>
 
-Get started with MelonLoader And Download the latest release of the mod from the [releases page](https://github.com/LucianLand-xyz/CapuchinModded/releases/tag/v1.0). In case of any issues, follow these steps:
+Get started with MelonLoader And Download the latest release of the mod from the [releases page](https://github.com/LucianLand-xyz/CapuchinModded/releases/tag/Offical). In case of any issues, follow these steps:
 
 Make sure melonloader version is latest,
 Make sure you are using the LATEST VERSION of capuchin modded.
