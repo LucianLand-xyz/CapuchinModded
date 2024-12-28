@@ -7,20 +7,18 @@
       "RelativeMoniker": "D:0:0:{6E955D3A-26C5-4253-A7E5-D10CC7CD088C}|LucianLandCapuchin\\LucianLandCapuchin.csproj|solutionrelative:lucianlandcapuchin\\renderer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6E955D3A-26C5-4253-A7E5-D10CC7CD088C}|LucianLandCapuchin\\LucianLandCapuchin.csproj|c:\\users\\lucia\\onedrive\\desktop\\capuchinmodded\\mod\\lucianlandcapuchin\\metadata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E955D3A-26C5-4253-A7E5-D10CC7CD088C}|LucianLandCapuchin\\LucianLandCapuchin.csproj|solutionrelative:lucianlandcapuchin\\metadata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6E955D3A-26C5-4253-A7E5-D10CC7CD088C}|LucianLandCapuchin\\LucianLandCapuchin.csproj|c:\\users\\lucia\\onedrive\\desktop\\capuchinmodded\\mod\\lucianlandcapuchin\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6E955D3A-26C5-4253-A7E5-D10CC7CD088C}|LucianLandCapuchin\\LucianLandCapuchin.csproj|solutionrelative:lucianlandcapuchin\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6E955D3A-26C5-4253-A7E5-D10CC7CD088C}|LucianLandCapuchin\\LucianLandCapuchin.csproj|c:\\users\\lucia\\onedrive\\desktop\\capuchinmodded\\mod\\lucianlandcapuchin\\offsets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E955D3A-26C5-4253-A7E5-D10CC7CD088C}|LucianLandCapuchin\\LucianLandCapuchin.csproj|solutionrelative:lucianlandcapuchin\\offsets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\lucia\\OneDrive\\Desktop\\Ember-UI-main\\EmberUI\\Plugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6E955D3A-26C5-4253-A7E5-D10CC7CD088C}|LucianLandCapuchin\\LucianLandCapuchin.csproj|c:\\users\\lucia\\onedrive\\desktop\\capuchinmodded\\mod\\lucianlandcapuchin\\lucianlandcapuchin.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{6E955D3A-26C5-4253-A7E5-D10CC7CD088C}|LucianLandCapuchin\\LucianLandCapuchin.csproj|solutionrelative:lucianlandcapuchin\\lucianlandcapuchin.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+      "AbsoluteMoniker": "D:0:0:{6E955D3A-26C5-4253-A7E5-D10CC7CD088C}|LucianLandCapuchin\\LucianLandCapuchin.csproj|c:\\users\\lucia\\onedrive\\desktop\\capuchinmodded\\mod\\lucianlandcapuchin\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E955D3A-26C5-4253-A7E5-D10CC7CD088C}|LucianLandCapuchin\\LucianLandCapuchin.csproj|solutionrelative:lucianlandcapuchin\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\lucia\\OneDrive\\Desktop\\Ember-UI-main\\EmberUI\\Settings\\Configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,19 +28,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Metadata.cs",
-              "DocumentMoniker": "C:\\Users\\lucia\\OneDrive\\Desktop\\CapuchinModded\\Mod\\LucianLandCapuchin\\Metadata.cs",
-              "RelativeDocumentMoniker": "LucianLandCapuchin\\Metadata.cs",
-              "ToolTip": "C:\\Users\\lucia\\OneDrive\\Desktop\\CapuchinModded\\Mod\\LucianLandCapuchin\\Metadata.cs",
-              "RelativeToolTip": "LucianLandCapuchin\\Metadata.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA+AAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "Configuration.cs",
+              "DocumentMoniker": "C:\\Users\\lucia\\OneDrive\\Desktop\\CapuchinModded\\Mod\\LucianLandCapuchin\\Configuration.cs",
+              "RelativeDocumentMoniker": "LucianLandCapuchin\\Configuration.cs",
+              "ToolTip": "C:\\Users\\lucia\\OneDrive\\Desktop\\CapuchinModded\\Mod\\LucianLandCapuchin\\Configuration.cs",
+              "RelativeToolTip": "LucianLandCapuchin\\Configuration.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAADgvxUAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-27T21:26:54.556Z",
+              "WhenOpened": "2024-12-28T03:45:16.911Z",
               "EditorCaption": ""
             },
             {
@@ -53,47 +51,69 @@
               "RelativeDocumentMoniker": "LucianLandCapuchin\\Renderer.cs",
               "ToolTip": "C:\\Users\\lucia\\OneDrive\\Desktop\\CapuchinModded\\Mod\\LucianLandCapuchin\\Renderer.cs",
               "RelativeToolTip": "LucianLandCapuchin\\Renderer.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAwwEkAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAADYAAAAAAAAAAAAYwFEAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-27T21:21:59.716Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Offsets.cs",
-              "DocumentMoniker": "C:\\Users\\lucia\\OneDrive\\Desktop\\CapuchinModded\\Mod\\LucianLandCapuchin\\Offsets.cs",
-              "RelativeDocumentMoniker": "LucianLandCapuchin\\Offsets.cs",
-              "ToolTip": "C:\\Users\\lucia\\OneDrive\\Desktop\\CapuchinModded\\Mod\\LucianLandCapuchin\\Offsets.cs",
-              "RelativeToolTip": "LucianLandCapuchin\\Offsets.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-27T21:22:00.73Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "LucianLandCapuchin",
-              "DocumentMoniker": "C:\\Users\\lucia\\OneDrive\\Desktop\\CapuchinModded\\Mod\\LucianLandCapuchin\\LucianLandCapuchin.csproj",
-              "RelativeDocumentMoniker": "LucianLandCapuchin\\LucianLandCapuchin.csproj",
-              "ToolTip": "C:\\Users\\lucia\\OneDrive\\Desktop\\CapuchinModded\\Mod\\LucianLandCapuchin\\LucianLandCapuchin.csproj",
-              "RelativeToolTip": "LucianLandCapuchin\\LucianLandCapuchin.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-12-27T18:50:20.83Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\lucia\\OneDrive\\Desktop\\CapuchinModded\\Mod\\LucianLandCapuchin\\Program.cs",
               "RelativeDocumentMoniker": "LucianLandCapuchin\\Program.cs",
               "ToolTip": "C:\\Users\\lucia\\OneDrive\\Desktop\\CapuchinModded\\Mod\\LucianLandCapuchin\\Program.cs",
               "RelativeToolTip": "LucianLandCapuchin\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-27T18:45:37.684Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "9153017f-3f98-4f9d-a0c4-adefbe685277",
+        "Display": 1,
+        "X": -5,
+        "Y": 0,
+        "Width": 1090,
+        "Height": 941,
+        "WindowState": 2
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Configuration.cs",
+              "DocumentMoniker": "C:\\Users\\lucia\\OneDrive\\Desktop\\Ember-UI-main\\EmberUI\\Settings\\Configuration.cs",
+              "RelativeDocumentMoniker": "..\\..\\Ember-UI-main\\EmberUI\\Settings\\Configuration.cs",
+              "ToolTip": "C:\\Users\\lucia\\OneDrive\\Desktop\\Ember-UI-main\\EmberUI\\Settings\\Configuration.cs",
+              "RelativeToolTip": "..\\..\\Ember-UI-main\\EmberUI\\Settings\\Configuration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-28T03:21:11.827Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Plugin.cs",
+              "DocumentMoniker": "C:\\Users\\lucia\\OneDrive\\Desktop\\Ember-UI-main\\EmberUI\\Plugin.cs",
+              "RelativeDocumentMoniker": "..\\..\\Ember-UI-main\\EmberUI\\Plugin.cs",
+              "ToolTip": "C:\\Users\\lucia\\OneDrive\\Desktop\\Ember-UI-main\\EmberUI\\Plugin.cs",
+              "RelativeToolTip": "..\\..\\Ember-UI-main\\EmberUI\\Plugin.cs",
+              "ViewState": "AgIAAB8CAAAAAAAAAAAAADcCAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-28T03:16:49.633Z",
               "EditorCaption": ""
             }
           ]
