@@ -10,7 +10,6 @@
         "dependencies": {
           "ClickableTransparentOverlay": "11.0.1",
           "ImGui.NET": "1.91.0.1",
-          "ImGuiSharp": "2.0.0.1",
           "SharpDX.D3DCompiler": "4.2.0",
           "SharpDX.Direct3D11": "4.2.0",
           "SixLabors.ImageSharp": "3.1.6",
@@ -32,14 +31,6 @@
           "lib/net8.0/ClickableTransparentOverlay.dll": {
             "assemblyVersion": "11.0.1.0",
             "fileVersion": "11.0.1.0"
-          }
-        }
-      },
-      "CppSharp.Runtime/1.0.45.22293": {
-        "runtime": {
-          "lib/netstandard2.0/CppSharp.Runtime.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
           }
         }
       },
@@ -79,21 +70,6 @@
           "runtimes/win-x86/native/cimgui.dll": {
             "rid": "win-x86",
             "assetType": "native",
-            "fileVersion": "0.0.0.0"
-          }
-        }
-      },
-      "ImGuiSharp/2.0.0.1": {
-        "dependencies": {
-          "CppSharp.Runtime": "1.0.45.22293",
-          "System.Numerics.Vectors": "4.5.0"
-        },
-        "runtime": {
-          "lib/net6.0/ImGuiSharp.dll": {
-            "assemblyVersion": "2.0.0.1",
-            "fileVersion": "2.0.0.1"
-          },
-          "lib/net6.0/cimgui.dll": {
             "fileVersion": "0.0.0.0"
           }
         }
@@ -921,26 +897,12 @@
       "path": "clickabletransparentoverlay/11.0.1",
       "hashPath": "clickabletransparentoverlay.11.0.1.nupkg.sha512"
     },
-    "CppSharp.Runtime/1.0.45.22293": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-2cSMh0P2o8bjl2Ad9Msb/aYde+z4sfmPZwy9e/uHUvkPekbzbYeQKcZALzgXY4IGFRzdrNreqbWh+yY37029zg==",
-      "path": "cppsharp.runtime/1.0.45.22293",
-      "hashPath": "cppsharp.runtime.1.0.45.22293.nupkg.sha512"
-    },
     "ImGui.NET/1.91.0.1": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-Q7IoWTeAJ3jywfvgbFdhKCtcSeRt90ghrZiZlnHPOlcojrPcx9UbqaM3rXWsDg6vv1JKqz1BhNIK2RIwRV4Pxw==",
       "path": "imgui.net/1.91.0.1",
       "hashPath": "imgui.net.1.91.0.1.nupkg.sha512"
-    },
-    "ImGuiSharp/2.0.0.1": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-Fdano84nsDxc1UlEvdH82FSFI+ilK7yQ5YhuF7hdjvsZcb9okUAQw8lIet1CG6InPQd/3tgN08eXJBWU9fyJAg==",
-      "path": "imguisharp/2.0.0.1",
-      "hashPath": "imguisharp.2.0.0.1.nupkg.sha512"
     },
     "Microsoft.NETCore.Platforms/1.1.0": {
       "type": "package",

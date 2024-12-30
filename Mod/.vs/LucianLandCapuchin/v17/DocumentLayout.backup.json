@@ -7,8 +7,19 @@
       "RelativeMoniker": "D:0:0:{6E955D3A-26C5-4253-A7E5-D10CC7CD088C}|LucianLandCapuchin\\LucianLandCapuchin.csproj|solutionrelative:lucianlandcapuchin\\gui\\renderer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{6E955D3A-26C5-4253-A7E5-D10CC7CD088C}|LucianLandCapuchin\\LucianLandCapuchin.csproj|c:\\users\\lucia\\onedrive\\desktop\\il2cpp\\projects\\capuchinmodded\\mod\\lucianlandcapuchin\\utils\\worldtoscreenclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E955D3A-26C5-4253-A7E5-D10CC7CD088C}|LucianLandCapuchin\\LucianLandCapuchin.csproj|solutionrelative:lucianlandcapuchin\\utils\\worldtoscreenclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6E955D3A-26C5-4253-A7E5-D10CC7CD088C}|LucianLandCapuchin\\LucianLandCapuchin.csproj|c:\\users\\lucia\\onedrive\\desktop\\il2cpp\\projects\\capuchinmodded\\mod\\lucianlandcapuchin\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6E955D3A-26C5-4253-A7E5-D10CC7CD088C}|LucianLandCapuchin\\LucianLandCapuchin.csproj|solutionrelative:lucianlandcapuchin\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E955D3A-26C5-4253-A7E5-D10CC7CD088C}|LucianLandCapuchin\\LucianLandCapuchin.csproj|c:\\users\\lucia\\onedrive\\desktop\\il2cpp\\projects\\capuchinmodded\\mod\\lucianlandcapuchin\\unity sdk\\camera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E955D3A-26C5-4253-A7E5-D10CC7CD088C}|LucianLandCapuchin\\LucianLandCapuchin.csproj|solutionrelative:lucianlandcapuchin\\unity sdk\\camera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\lucia\\AppData\\Local\\Temp\\.vsdbgsrc\\4e57ebc9db942aaf82ea1ea562eefb704fe61752d1ea54ba345e82030972fb7a\\Overlay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6E955D3A-26C5-4253-A7E5-D10CC7CD088C}|LucianLandCapuchin\\LucianLandCapuchin.csproj|c:\\users\\lucia\\onedrive\\desktop\\il2cpp\\projects\\capuchinmodded\\mod\\lucianlandcapuchin\\gui\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -17,16 +28,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{6E955D3A-26C5-4253-A7E5-D10CC7CD088C}|LucianLandCapuchin\\LucianLandCapuchin.csproj|c:\\users\\lucia\\onedrive\\desktop\\il2cpp\\projects\\capuchinmodded\\mod\\lucianlandcapuchin\\theme\\themes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6E955D3A-26C5-4253-A7E5-D10CC7CD088C}|LucianLandCapuchin\\LucianLandCapuchin.csproj|solutionrelative:lucianlandcapuchin\\theme\\themes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\lucia\\.nuget\\packages\\clickabletransparentoverlay\\11.0.1\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\lucia\\AppData\\Local\\Temp\\.vsdbgsrc\\4e57ebc9db942aaf82ea1ea562eefb704fe61752d1ea54ba345e82030972fb7a\\Overlay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6E955D3A-26C5-4253-A7E5-D10CC7CD088C}|LucianLandCapuchin\\LucianLandCapuchin.csproj|c:\\users\\lucia\\onedrive\\desktop\\il2cpp\\projects\\capuchinmodded\\mod\\lucianlandcapuchin\\lucianlandcapuchin.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{6E955D3A-26C5-4253-A7E5-D10CC7CD088C}|LucianLandCapuchin\\LucianLandCapuchin.csproj|solutionrelative:lucianlandcapuchin\\lucianlandcapuchin.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -40,64 +41,65 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "README.md",
-              "DocumentMoniker": "C:\\Users\\lucia\\.nuget\\packages\\clickabletransparentoverlay\\11.0.1\\README.md",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\.nuget\\packages\\clickabletransparentoverlay\\11.0.1\\README.md",
-              "ToolTip": "C:\\Users\\lucia\\.nuget\\packages\\clickabletransparentoverlay\\11.0.1\\README.md [Read Only]",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\.nuget\\packages\\clickabletransparentoverlay\\11.0.1\\README.md [Read Only]",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2024-12-30T02:29:15.155Z",
-              "EditorCaption": " [Read Only]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "LucianLandCapuchin",
-              "DocumentMoniker": "C:\\Users\\lucia\\OneDrive\\Desktop\\IL2CPP\\Projects\\CapuchinModded\\Mod\\LucianLandCapuchin\\LucianLandCapuchin.csproj",
-              "RelativeDocumentMoniker": "LucianLandCapuchin\\LucianLandCapuchin.csproj",
-              "ToolTip": "C:\\Users\\lucia\\OneDrive\\Desktop\\IL2CPP\\Projects\\CapuchinModded\\Mod\\LucianLandCapuchin\\LucianLandCapuchin.csproj",
-              "RelativeToolTip": "LucianLandCapuchin\\LucianLandCapuchin.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-12-30T02:25:08.744Z",
+              "DocumentIndex": 3,
+              "Title": "Camera.cs",
+              "DocumentMoniker": "C:\\Users\\lucia\\OneDrive\\Desktop\\IL2CPP\\Projects\\CapuchinModded\\Mod\\LucianLandCapuchin\\Unity SDK\\Camera.cs",
+              "RelativeDocumentMoniker": "LucianLandCapuchin\\Unity SDK\\Camera.cs",
+              "ToolTip": "C:\\Users\\lucia\\OneDrive\\Desktop\\IL2CPP\\Projects\\CapuchinModded\\Mod\\LucianLandCapuchin\\Unity SDK\\Camera.cs",
+              "RelativeToolTip": "LucianLandCapuchin\\Unity SDK\\Camera.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T04:10:16.581Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "Overlay.cs",
               "DocumentMoniker": "C:\\Users\\lucia\\AppData\\Local\\Temp\\.vsdbgsrc\\4e57ebc9db942aaf82ea1ea562eefb704fe61752d1ea54ba345e82030972fb7a\\Overlay.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\4e57ebc9db942aaf82ea1ea562eefb704fe61752d1ea54ba345e82030972fb7a\\Overlay.cs",
               "ToolTip": "C:\\Users\\lucia\\AppData\\Local\\Temp\\.vsdbgsrc\\4e57ebc9db942aaf82ea1ea562eefb704fe61752d1ea54ba345e82030972fb7a\\Overlay.cs [Read Only]",
               "RelativeToolTip": "..\\..\\..\\..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\4e57ebc9db942aaf82ea1ea562eefb704fe61752d1ea54ba345e82030972fb7a\\Overlay.cs [Read Only]",
-              "ViewState": "AgIAAD8BAAAAAAAAAAAEwFkBAAAHAAAAAQAAAA==",
+              "ViewState": "AgIAAFABAAAAAAAAAAArwFMBAAAYAAAAAQAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-30T02:24:15.185Z",
+              "WhenOpened": "2024-12-30T03:37:15.49Z",
               "EditorCaption": " [Read Only]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
+              "Title": "WorldToScreenClass.cs",
+              "DocumentMoniker": "C:\\Users\\lucia\\OneDrive\\Desktop\\IL2CPP\\Projects\\CapuchinModded\\Mod\\LucianLandCapuchin\\Utils\\WorldToScreenClass.cs",
+              "RelativeDocumentMoniker": "LucianLandCapuchin\\Utils\\WorldToScreenClass.cs",
+              "ToolTip": "C:\\Users\\lucia\\OneDrive\\Desktop\\IL2CPP\\Projects\\CapuchinModded\\Mod\\LucianLandCapuchin\\Utils\\WorldToScreenClass.cs*",
+              "RelativeToolTip": "LucianLandCapuchin\\Utils\\WorldToScreenClass.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T03:32:31.836Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Themes.cs",
               "DocumentMoniker": "C:\\Users\\lucia\\OneDrive\\Desktop\\IL2CPP\\Projects\\CapuchinModded\\Mod\\LucianLandCapuchin\\Theme\\Themes.cs",
               "RelativeDocumentMoniker": "LucianLandCapuchin\\Theme\\Themes.cs",
               "ToolTip": "C:\\Users\\lucia\\OneDrive\\Desktop\\IL2CPP\\Projects\\CapuchinModded\\Mod\\LucianLandCapuchin\\Theme\\Themes.cs",
               "RelativeToolTip": "LucianLandCapuchin\\Theme\\Themes.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAgwEQAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAUAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-30T02:03:34.345Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Configuration.cs",
               "DocumentMoniker": "C:\\Users\\lucia\\OneDrive\\Desktop\\IL2CPP\\Projects\\CapuchinModded\\Mod\\LucianLandCapuchin\\GUI\\Configuration.cs",
               "RelativeDocumentMoniker": "LucianLandCapuchin\\GUI\\Configuration.cs",
               "ToolTip": "C:\\Users\\lucia\\OneDrive\\Desktop\\IL2CPP\\Projects\\CapuchinModded\\Mod\\LucianLandCapuchin\\GUI\\Configuration.cs",
               "RelativeToolTip": "LucianLandCapuchin\\GUI\\Configuration.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAwwDEAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAsAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-28T03:45:16.911Z",
               "EditorCaption": ""
@@ -110,20 +112,20 @@
               "RelativeDocumentMoniker": "LucianLandCapuchin\\GUI\\Renderer.cs",
               "ToolTip": "C:\\Users\\lucia\\OneDrive\\Desktop\\IL2CPP\\Projects\\CapuchinModded\\Mod\\LucianLandCapuchin\\GUI\\Renderer.cs*",
               "RelativeToolTip": "LucianLandCapuchin\\GUI\\Renderer.cs*",
-              "ViewState": "AgIAAFIAAAAAAAAAAAAawFsAAABZAAAAAAAAAA==",
+              "ViewState": "AgIAAKAAAAAAAAAAAAAQwK4AAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-27T21:21:59.716Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\lucia\\OneDrive\\Desktop\\IL2CPP\\Projects\\CapuchinModded\\Mod\\LucianLandCapuchin\\Program.cs",
               "RelativeDocumentMoniker": "LucianLandCapuchin\\Program.cs",
               "ToolTip": "C:\\Users\\lucia\\OneDrive\\Desktop\\IL2CPP\\Projects\\CapuchinModded\\Mod\\LucianLandCapuchin\\Program.cs",
               "RelativeToolTip": "LucianLandCapuchin\\Program.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAIwAYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAjwBoAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-27T18:45:37.684Z",
               "EditorCaption": ""

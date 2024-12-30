@@ -17,6 +17,7 @@ using Vector2 = System.Numerics.Vector2;
 using Vector3 = System.Numerics.Vector3;
 using Vector4 = System.Numerics.Vector4;
 using Utils;
+using System.Net;
 #endregion
 
 namespace LucianLamd
@@ -56,10 +57,13 @@ namespace LucianLamd
 
         protected override void Render()
         {
-            if (Configuration.ShowInspector)
+            if (TestObjects.ShowInspector)
             {
-                Utils.DrawInspector();
+                Utils.DrawInspectorClass.DrawInspector();
             }
+
+     
+
 
             ImGuiThemes.ApplyTheme();
 
@@ -79,6 +83,11 @@ namespace LucianLamd
                             if (n == 0)
                             {
                                 ImGui.Text("Self");
+
+                                ImGui.Checkbox("Camera Fov Changer", ref Configuration.CameraFovChanger);
+                                ImGui.Text("Camera Custom FOV");
+                                ImGui.SameLine();
+                                ImGui.SliderFloat("##Camera Custom FOV",ref Configuration.CameraCustomFOV, 0.1f, 300.0f);
                             }
                             else if (n == 1)
                             {
@@ -95,7 +104,7 @@ namespace LucianLamd
                                 if (Configuration.EnableDeveloperOption)
                                 {
                                     ImGui.Indent();
-                                   // ImGui.Checkbox("Show Inspector", ref Configuration.ShowInspector);
+                                    ImGui.Checkbox("Show Inspector", ref TestObjects.ShowInspector);
                                     ImGui.Spacing();
 
                                     { // test things
@@ -103,12 +112,20 @@ namespace LucianLamd
                                         ImGui.SameLine();
                                         ImGui.InputTextWithHint("##SearchObject", "Name of a component...", ref TestObjects.Name, 200);
 
-                                        ImGui.Checkbox("Test Objects Chams", ref TestObjects.Chams);
-                                        ImGui.SameLine();
+                                        
                                         ImGui.Checkbox("Test Objects Snapline", ref TestObjects.Snapline);
+                                        ImGui.SameLine();
+                                        ImGui.ColorEdit3("##PlayersSnaplineColor", ref Configuration.PlayersSnaplineColor, ImGuiColorEditFlags.NoDragDrop | ImGuiColorEditFlags.NoInputs);
+                                        if (ImGui.IsItemHovered()) ImGui.SetTooltip("Color of the players snapline");
                                         ImGui.Checkbox("Test Objects Box", ref TestObjects.Box);
                                         ImGui.SameLine();
-                                        ImGui.Checkbox("Test Objects Aimbot", ref TestObjects.Aimbot);
+                                        ImGui.ColorEdit3("##PlayersBoxColor", ref Configuration.BoxColor, ImGuiColorEditFlags.NoDragDrop | ImGuiColorEditFlags.NoInputs);
+                                        if (ImGui.IsItemHovered()) ImGui.SetTooltip("Color of the players box");
+                                        //  ImGui.SameLine();
+                                        // ImGui.Checkbox("Test Objects Aimbot", ref TestObjects.Aimbot);
+
+                                        // ImGui.Checkbox("Test Objects Chams", ref TestObjects.Chams);
+                                        // ImGui.SameLine();
                                     }
                                     ImGui.Unindent();
 
@@ -122,9 +139,63 @@ namespace LucianLamd
                 }
             }
 
+
+
+
             #region Developer Shit
 
-           
+            if (Configuration.EnableDeveloperOption)
+            {
+                for (int i = 0; i < TestObjects.List.Count; i++)
+                {
+                    UnityEngine.GameObject curObject = TestObjects.List[i];
+                    if (curObject == null)
+                        continue;
+
+                    Transform objectTransform = curObject.GetComponent<Transform>();
+                    if (objectTransform == null)
+                        continue;
+
+                    UnityEngine.Vector3 objectPos = objectTransform.position;
+
+                    UnityEngine.Vector3 headPos = objectPos;
+                    headPos.y += Configuration.FakeHeadPosDiff;
+
+                    UnityEngine.Vector3 feetPos = objectPos;
+                    feetPos.y -= Configuration.FakeFeetPosDiff;
+
+                    UnityEngine.Vector2 top, bottom;
+
+                    if (!Utils.WorldToScreenClass.WorldToScreen(feetPos, out bottom)) continue;
+
+                    if (TestObjects.Snapline)
+                    {
+                        Vector3 color = Configuration.PlayersSnaplineColor;
+
+                        RenderESPSnapline(color, bottom);
+                    }
+
+                    if (TestObjects.Box)
+                    {
+                        Vector3 color = Configuration.BoxColor;
+
+                        if (WorldToScreenClass.WorldToScreen(headPos, out top))
+                         {
+                            RenderESPBox(color, bottom, top);
+                         }
+                    }
+
+                    if (TestObjects.Aimbot)
+                    {
+                        
+                    }
+
+                    if (TestObjects.Chams)
+                    {
+                     
+                    }
+                }
+            }
 
             #endregion
 
@@ -134,14 +205,59 @@ namespace LucianLamd
             ImGui.SetNextWindowPos(new Vector2 { X = 10f, Y = 10f }, 0, new Vector2 { X = 0f, Y = 0f });
             if (ImGui.Begin("#WoahWatermark", ref dummyBool, ImGuiWindowFlags.NoScrollbar | ImGuiWindowFlags.NoTitleBar | ImGuiWindowFlags.NoResize))
             {
-                ImGui.Text($" LucianLand - Capuchin | v2.0");
+                ImGui.Text($" LucianLand - Capuchin | V2");
             }
             ImGui.End();
             #endregion
         }
 
+        #region exploits and misc
+
+        #endregion
 
         #region draw methords
+
+        // if you are taking this gng its not hard to code, do it yourself
+
+        public bool RenderESPSnapline(Vector3 color, UnityEngine.Vector2 origin)
+        {
+            Vector2 screenPos = new Vector2(origin.x, origin.y);
+            Vector2 dest;
+
+            switch (Configuration.PlayersSnaplineType)
+            {
+                case 0:
+                    dest = new Vector2(screenSize.X / 2, screenSize.Y);
+                    break;
+                case 1:
+                    dest = new Vector2(screenSize.X / 2, screenSize.Y / 2);
+                    break;
+                case 2:
+                    dest = new Vector2(screenSize.X / 2, 0);
+                    break;
+                default:
+                    dest = screenPos; // fallback
+                    break;
+            }
+
+            ImGui.GetForegroundDrawList().AddLine(dest, screenPos, (uint)1.5f);
+
+            return true;
+        }
+        public bool RenderESPBox(Vector3 color, UnityEngine.Vector2 bottom, UnityEngine.Vector2 top)
+    {
+        float height = bottom.y - top.y;
+        float width = height * 0.2f;
+        int left = (int)(top.x - width);
+        int right = (int)(top.x + width);
+
+     
+
+        ImGui.GetForegroundDrawList().AddRect(new Vector2(left, top.y), new Vector2(right, bottom.y), (uint)0.0f, 0, (ImDrawFlags)1.0f);
+
+        return true;
+    }
+
 
         bool EntityOnScreen(Entity entity)
         {

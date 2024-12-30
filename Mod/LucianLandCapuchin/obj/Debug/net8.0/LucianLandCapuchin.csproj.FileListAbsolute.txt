@@ -101,6 +101,3 @@ C:\Users\lucia\OneDrive\Desktop\IL2CPP\Projects\CapuchinModded\Mod\LucianLandCap
 C:\Users\lucia\OneDrive\Desktop\IL2CPP\Projects\CapuchinModded\Mod\LucianLandCapuchin\bin\Debug\net8.0\SharpDX.D3DCompiler.dll
 C:\Users\lucia\OneDrive\Desktop\IL2CPP\Projects\CapuchinModded\Mod\LucianLandCapuchin\bin\Debug\net8.0\SharpDX.Direct3D11.dll
 C:\Users\lucia\OneDrive\Desktop\IL2CPP\Projects\CapuchinModded\Mod\LucianLandCapuchin\bin\Debug\net8.0\SharpDX.DXGI.dll
-C:\Users\lucia\OneDrive\Desktop\IL2CPP\Projects\CapuchinModded\Mod\LucianLandCapuchin\bin\Debug\net8.0\CppSharp.Runtime.dll
-C:\Users\lucia\OneDrive\Desktop\IL2CPP\Projects\CapuchinModded\Mod\LucianLandCapuchin\bin\Debug\net8.0\ImGuiSharp.dll
-C:\Users\lucia\OneDrive\Desktop\IL2CPP\Projects\CapuchinModded\Mod\LucianLandCapuchin\bin\Debug\net8.0\cimgui.dll

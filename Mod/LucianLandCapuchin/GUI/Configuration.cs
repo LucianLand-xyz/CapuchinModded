@@ -13,30 +13,31 @@ namespace LucianLand.Settings
 {
     public class Configuration 
     {
-        // self tab
-
-
-        // server tab
-
-
-        // visual tab
+        public static bool CameraFovChanger = false;
+        public static float CameraCustomFOV = 80.0f;
 
         public static bool esp = false;
         public static Vector4 PlayerEspColor = new Vector4(218, 0, 255, 1);
+        public static System.Numerics.Vector3 BoxColor = new System.Numerics.Vector3(218, 0, 255);
+        public static bool PlayersSnapline = false;
+        public static bool RainbowPlayersSnapline = false;
+        public static System.Numerics.Vector3 PlayersSnaplineColor = new System.Numerics.Vector3(218, 0, 255);
+        public static int PlayersSnaplineType = 2;
 
+        public static System.Numerics.Vector2 ScreenSize = new System.Numerics.Vector2( 0, 0 );
+        public static System.Numerics.Vector2 ScreenCenter = new System.Numerics.Vector2(0, 0 );
 
-        // playerlist shit
 
         public static bool Teleport;
         public static bool Kick;
         public static bool Lag;
         public static bool Kill;
 
-        string Name = "UnityEngine.CapsuleCollider";
-        bool Chams = false;
-        bool Snapline = false;
-        bool Box = false;
-        bool Aimbot = false;
+        public static string Name = "UnityEngine.CapsuleCollider";
+        public static bool Chams = false;
+        public static bool Snapline = false;
+        public static bool Box = false;
+        public static bool Aimbot = false;
 
         public static bool EnableDeveloperOption;
 

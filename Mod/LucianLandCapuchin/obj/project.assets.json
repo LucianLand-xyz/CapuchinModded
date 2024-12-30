@@ -17,15 +17,6 @@
           "lib/net8.0/ClickableTransparentOverlay.dll": {}
         }
       },
-      "CppSharp.Runtime/1.0.45.22293": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.0/CppSharp.Runtime.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/CppSharp.Runtime.dll": {}
-        }
-      },
       "ImGui.NET/1.91.0.1": {
         "type": "package",
         "dependencies": {
@@ -64,21 +55,6 @@
             "assetType": "native",
             "rid": "win-x86"
           }
-        }
-      },
-      "ImGuiSharp/2.0.0.1": {
-        "type": "package",
-        "dependencies": {
-          "CppSharp.Runtime": "1.0.21.52894",
-          "System.Numerics.Vectors": "4.5.0"
-        },
-        "compile": {
-          "lib/net6.0/ImGuiSharp.dll": {},
-          "lib/net6.0/cimgui.dll": {}
-        },
-        "runtime": {
-          "lib/net6.0/ImGuiSharp.dll": {},
-          "lib/net6.0/cimgui.dll": {}
         }
       },
       "Microsoft.NETCore.Platforms/1.1.0": {
@@ -1639,18 +1615,6 @@
         "lib/net8.0/ClickableTransparentOverlay.dll"
       ]
     },
-    "CppSharp.Runtime/1.0.45.22293": {
-      "sha512": "2cSMh0P2o8bjl2Ad9Msb/aYde+z4sfmPZwy9e/uHUvkPekbzbYeQKcZALzgXY4IGFRzdrNreqbWh+yY37029zg==",
-      "type": "package",
-      "path": "cppsharp.runtime/1.0.45.22293",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "cppsharp.runtime.1.0.45.22293.nupkg.sha512",
-        "cppsharp.runtime.nuspec",
-        "lib/netstandard2.0/CppSharp.Runtime.dll"
-      ]
-    },
     "ImGui.NET/1.91.0.1": {
       "sha512": "Q7IoWTeAJ3jywfvgbFdhKCtcSeRt90ghrZiZlnHPOlcojrPcx9UbqaM3rXWsDg6vv1JKqz1BhNIK2RIwRV4Pxw==",
       "type": "package",
@@ -1672,19 +1636,6 @@
         "runtimes/win-arm64/native/cimgui.dll",
         "runtimes/win-x64/native/cimgui.dll",
         "runtimes/win-x86/native/cimgui.dll"
-      ]
-    },
-    "ImGuiSharp/2.0.0.1": {
-      "sha512": "Fdano84nsDxc1UlEvdH82FSFI+ilK7yQ5YhuF7hdjvsZcb9okUAQw8lIet1CG6InPQd/3tgN08eXJBWU9fyJAg==",
-      "type": "package",
-      "path": "imguisharp/2.0.0.1",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "imguisharp.2.0.0.1.nupkg.sha512",
-        "imguisharp.nuspec",
-        "lib/net6.0/ImGuiSharp.dll",
-        "lib/net6.0/cimgui.dll"
       ]
     },
     "Microsoft.NETCore.Platforms/1.1.0": {
@@ -5324,7 +5275,6 @@
     "net8.0": [
       "ClickableTransparentOverlay >= 11.0.1",
       "ImGui.NET >= 1.91.0.1",
-      "ImGuiSharp >= 2.0.0.1",
       "SharpDX.D3DCompiler >= 4.2.0",
       "SharpDX.Direct3D11 >= 4.2.0",
       "SixLabors.ImageSharp >= 3.1.6",
@@ -5385,10 +5335,6 @@
             "target": "Package",
             "version": "[1.91.0.1, )"
           },
-          "ImGuiSharp": {
-            "target": "Package",
-            "version": "[2.0.0.1, )"
-          },
           "SharpDX.D3DCompiler": {
             "target": "Package",
             "version": "[4.2.0, )"
@@ -5431,16 +5377,6 @@
     }
   },
   "logs": [
-    {
-      "code": "NU1603",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "ImGuiSharp 2.0.0.1 depends on CppSharp.Runtime (>= 1.0.21.52894) but CppSharp.Runtime 1.0.21.52894 was not found. An approximate best match of CppSharp.Runtime 1.0.45.22293 was resolved.",
-      "libraryId": "CppSharp.Runtime",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    },
     {
       "code": "NU1701",
       "level": "Warning",

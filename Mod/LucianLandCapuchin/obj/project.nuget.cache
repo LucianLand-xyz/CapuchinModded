@@ -1,13 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "2wCSDCSLIn0=",
+  "dgSpecHash": "wCvAEKTXTiA=",
   "success": true,
   "projectFilePath": "C:\\Users\\lucia\\OneDrive\\Desktop\\IL2CPP\\Projects\\CapuchinModded\\Mod\\LucianLandCapuchin\\LucianLandCapuchin.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lucia\\.nuget\\packages\\clickabletransparentoverlay\\11.0.1\\clickabletransparentoverlay.11.0.1.nupkg.sha512",
-    "C:\\Users\\lucia\\.nuget\\packages\\cppsharp.runtime\\1.0.45.22293\\cppsharp.runtime.1.0.45.22293.nupkg.sha512",
     "C:\\Users\\lucia\\.nuget\\packages\\imgui.net\\1.91.0.1\\imgui.net.1.91.0.1.nupkg.sha512",
-    "C:\\Users\\lucia\\.nuget\\packages\\imguisharp\\2.0.0.1\\imguisharp.2.0.0.1.nupkg.sha512",
     "C:\\Users\\lucia\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\lucia\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\lucia\\.nuget\\packages\\microsoft.win32.primitives\\4.3.0\\microsoft.win32.primitives.4.3.0.nupkg.sha512",
@@ -99,16 +97,6 @@
     "C:\\Users\\lucia\\.nuget\\packages\\vortice.mathematics\\1.7.8\\vortice.mathematics.1.7.8.nupkg.sha512"
   ],
   "logs": [
-    {
-      "code": "NU1603",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "ImGuiSharp 2.0.0.1 depends on CppSharp.Runtime (>= 1.0.21.52894) but CppSharp.Runtime 1.0.21.52894 was not found. An approximate best match of CppSharp.Runtime 1.0.45.22293 was resolved.",
-      "libraryId": "CppSharp.Runtime",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    },
     {
       "code": "NU1701",
       "level": "Warning",
