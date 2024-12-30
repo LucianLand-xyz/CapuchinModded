@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lucia\\OneDrive\\Desktop\\CapuchinModded\\Mod\\LucianLandCapuchin\\LucianLandCapuchin.csproj": {}
+    "C:\\Users\\lucia\\OneDrive\\Desktop\\IL2CPP\\Projects\\CapuchinModded\\Mod\\LucianLandCapuchin\\LucianLandCapuchin.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lucia\\OneDrive\\Desktop\\CapuchinModded\\Mod\\LucianLandCapuchin\\LucianLandCapuchin.csproj": {
+    "C:\\Users\\lucia\\OneDrive\\Desktop\\IL2CPP\\Projects\\CapuchinModded\\Mod\\LucianLandCapuchin\\LucianLandCapuchin.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lucia\\OneDrive\\Desktop\\CapuchinModded\\Mod\\LucianLandCapuchin\\LucianLandCapuchin.csproj",
+        "projectUniqueName": "C:\\Users\\lucia\\OneDrive\\Desktop\\IL2CPP\\Projects\\CapuchinModded\\Mod\\LucianLandCapuchin\\LucianLandCapuchin.csproj",
         "projectName": "LucianLandCapuchin",
-        "projectPath": "C:\\Users\\lucia\\OneDrive\\Desktop\\CapuchinModded\\Mod\\LucianLandCapuchin\\LucianLandCapuchin.csproj",
+        "projectPath": "C:\\Users\\lucia\\OneDrive\\Desktop\\IL2CPP\\Projects\\CapuchinModded\\Mod\\LucianLandCapuchin\\LucianLandCapuchin.csproj",
         "packagesPath": "C:\\Users\\lucia\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lucia\\OneDrive\\Desktop\\CapuchinModded\\Mod\\LucianLandCapuchin\\obj\\",
+        "outputPath": "C:\\Users\\lucia\\OneDrive\\Desktop\\IL2CPP\\Projects\\CapuchinModded\\Mod\\LucianLandCapuchin\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\lucia\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -48,7 +48,31 @@
           "dependencies": {
             "ClickableTransparentOverlay": {
               "target": "Package",
-              "version": "[9.1.0, )"
+              "version": "[11.0.1, )"
+            },
+            "ImGui.NET": {
+              "target": "Package",
+              "version": "[1.91.0.1, )"
+            },
+            "ImGuiSharp": {
+              "target": "Package",
+              "version": "[2.0.0.1, )"
+            },
+            "SharpDX.D3DCompiler": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            },
+            "SharpDX.Direct3D11": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            },
+            "SixLabors.ImageSharp": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
+            "Unity3D.UnityEngine": {
+              "target": "Package",
+              "version": "[2018.3.5.1, )"
             },
             "swed64": {
               "target": "Package",

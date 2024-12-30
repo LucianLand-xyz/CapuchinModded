@@ -12,6 +12,10 @@ using ImGuiNET;
 using LucianLand.Settings;
 using Microsoft.VisualBasic;
 using LucianLandCapuchin;
+using UnityEngine;
+using Vector2 = System.Numerics.Vector2;
+using Vector3 = System.Numerics.Vector3;
+using Vector4 = System.Numerics.Vector4;
 #endregion
 
 namespace LucianLamd
@@ -51,8 +55,9 @@ namespace LucianLamd
 
         protected override void Render()
         {
+            ImGuiThemes.ApplyTheme();
 
-            string[] names = { "Self", "Server", "Visual", "Player List" };
+            string[] names = { "Self", "Server", "Visual", "Developer" };
             var dummy2 = true;
             ImGui.SetNextWindowSize(WindowSize, 0);
 
@@ -79,7 +84,29 @@ namespace LucianLamd
                             }
                             else if (n == 3)
                             {
-                                ImGui.Text("broken in new update :(");
+                                ImGui.Checkbox("Enable Developer Options", ref Configuration.EnableDeveloperOption);
+
+                                if (Configuration.EnableDeveloperOption)
+                                {
+                                    ImGui.Indent();
+                                   // ImGui.Checkbox("Show Inspector", ref Configuration.ShowInspector);
+                                    ImGui.Spacing();
+
+                                    { // test things
+                                        ImGui.Text("Test Objects");
+                                        ImGui.SameLine();
+                                        ImGui.InputTextWithHint("##SearchObject", "Name of a component...", ref TestObjects.Name, 200);
+
+                                        ImGui.Checkbox("Test Objects Chams", ref TestObjects.Chams);
+                                        ImGui.SameLine();
+                                        ImGui.Checkbox("Test Objects Snapline", ref TestObjects.Snapline);
+                                        ImGui.Checkbox("Test Objects Box", ref TestObjects.Box);
+                                        ImGui.SameLine();
+                                        ImGui.Checkbox("Test Objects Aimbot", ref TestObjects.Aimbot);
+                                    }
+                                    ImGui.Unindent();
+
+                                }
                             }
 
                             ImGui.EndTabItem();
@@ -89,6 +116,11 @@ namespace LucianLamd
                 }
             }
 
+            #region Developer Shit
+
+           
+
+            #endregion
 
             #region Watermark
             var dummyBool = true;
