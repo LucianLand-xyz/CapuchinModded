@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LucianLandCapuchin")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e800b027f4bea9510a72c1c9203ca443472a0952")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cb9d78f3aa15b613f730ca16ead4e142a9f7e6c3")]
 [assembly: System.Reflection.AssemblyProductAttribute("LucianLandCapuchin")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LucianLandCapuchin")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

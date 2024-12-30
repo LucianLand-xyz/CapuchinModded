@@ -16,6 +16,7 @@ using UnityEngine;
 using Vector2 = System.Numerics.Vector2;
 using Vector3 = System.Numerics.Vector3;
 using Vector4 = System.Numerics.Vector4;
+using Utils;
 #endregion
 
 namespace LucianLamd
@@ -55,6 +56,11 @@ namespace LucianLamd
 
         protected override void Render()
         {
+            if (Configuration.ShowInspector)
+            {
+                Utils.DrawInspector();
+            }
+
             ImGuiThemes.ApplyTheme();
 
             string[] names = { "Self", "Server", "Visual", "Developer" };

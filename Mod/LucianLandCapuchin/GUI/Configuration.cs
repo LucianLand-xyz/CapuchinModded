@@ -50,6 +50,7 @@ namespace LucianLand.Settings
         public static List<GameObject> List = new List<GameObject>();
         public static string Name = "UnityEngine.CapsuleCollider";
         public static bool Chams = false;
+        public static bool ShowInspector = false;
         public static bool Snapline = false;
         public static Color SnaplineColor = new Color(255.0f / 255, 255.0f / 255, 255.0f / 255);
         public static bool Box = false;
