@@ -15,23 +15,15 @@ Check the discord on lucianland.xyz
 
 ```
 • Self Tab
-      - Speed Boost
-      - No physics rig
-      - Monster Spam
-      - WASD Movement
-      - Invisibility
+      - Camera FOV
+      - Freecam
 
 • Server Tab
-      - Kill All
-      - Lag All
-      - Kill Gun
-      - Lag Gun     
+      
 
 • Visuals Tab
-      - Player ESP
+      - Player ESP (box and snapline)
       - Monster ESP
 
-• Player List Tab
-      - shows the Player List
 ```
 
